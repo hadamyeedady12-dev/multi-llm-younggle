@@ -1,3 +1,8 @@
+---
+description: LLM 위원회 소집 - 다중 AI 집단 지성 협의
+argument-hint: <질문>
+---
+
 # /council - LLM 위원회 소집
 
 다중 LLM CLI를 활용한 집단 지성 협의 시스템입니다. Claude Code가 의장으로서 Gemini, Codex를 조율합니다.
@@ -90,12 +95,12 @@ FINAL RANKING:
 ## 출력 형식
 
 ```markdown
-# 🏛️ LLM 위원회 결론
+# LLM 위원회 결론
 
-## 📋 질문
+## 질문
 {원본 질문}
 
-## 👥 Stage 1: 위원 응답
+## Stage 1: 위원 응답
 
 ### Gemini (gemini-3-pro-preview)
 {gemini 응답}
@@ -106,25 +111,25 @@ FINAL RANKING:
 ### Claude (claude-opus-4.5) - 의장
 {claude 응답}
 
-## ⚖️ Stage 2: 교차 평가
+## Stage 2: 교차 평가
 
 ### 순위 집계
 | 위원 | 평균 순위 | 평가 횟수 |
 |------|-----------|-----------|
 | ... | ... | ... |
 
-## 🎯 Stage 3: 최종 결론
+## Stage 3: 최종 결론
 
-### ✅ 합의 사항
+### 합의 사항
 - ...
 
-### ⚠️ 이견 사항
+### 이견 사항
 - ...
 
-### 📝 종합 결론
+### 종합 결론
 ...
 
-### 🔒 신뢰도
+### 신뢰도
 높음/중간/낮음
 
 ---
