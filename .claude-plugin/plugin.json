@@ -1,6 +1,6 @@
 {
-  "name": "multi-llm-council",
-  "version": "1.0.0",
+  "name": "council",
+  "version": "3.0.0",
   "description": "Multi-LLM Council - 다중 AI 집단 지성 협의 시스템. Claude Code가 의장으로서 Gemini, Codex CLI를 조율하여 3단계 협의 프로세스를 진행합니다.",
   "author": {
     "name": "hadamyeedady12-dev"
