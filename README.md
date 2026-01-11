@@ -30,6 +30,16 @@ npm install -g @anthropic-ai/claude-code
 
 ### 플러그인 설치
 
+#### 방법 1: 마켓플레이스 (권장)
+
+```bash
+# Claude Code 내에서 실행
+/plugin marketplace add https://github.com/hadamyeedady12-dev/multi-llm-council
+/plugin install council
+```
+
+#### 방법 2: 직접 클론
+
 ```bash
 # Claude Code 플러그인 디렉토리에 클론
 cd ~/.claude/plugins
