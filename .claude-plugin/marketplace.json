@@ -1,12 +1,22 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "multi-llm-council-marketplace",
-  "version": "1.0.0",
-  "description": "Multi-LLM Council 플러그인 마켓플레이스",
+  "description": "Multi-LLM Council 플러그인 마켓플레이스 - 다중 AI 집단 지성 협의 시스템",
+  "owner": {
+    "name": "hadamyeedady12-dev",
+    "email": "hadamyeedady12@dev.com"
+  },
   "plugins": [
     {
       "name": "council",
-      "path": ".",
-      "description": "Multi-LLM Council - 다중 AI 집단 지성 협의 시스템"
+      "description": "Multi-LLM Council - Claude가 의장으로서 Gemini, Codex CLI를 조율하여 3단계 협의 프로세스 진행",
+      "version": "1.0.0",
+      "author": {
+        "name": "hadamyeedady12-dev"
+      },
+      "source": ".",
+      "category": "productivity",
+      "tags": ["council", "multi-llm", "gemini", "codex", "collective-intelligence"]
     }
   ]
 }
