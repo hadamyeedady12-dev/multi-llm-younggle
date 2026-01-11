@@ -1,0 +1,12 @@
+{
+  "name": "multi-llm-council-marketplace",
+  "version": "1.0.0",
+  "description": "Multi-LLM Council 플러그인 마켓플레이스",
+  "plugins": [
+    {
+      "name": "council",
+      "path": ".",
+      "description": "Multi-LLM Council - 다중 AI 집단 지성 협의 시스템"
+    }
+  ]
+}
