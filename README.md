@@ -1,5 +1,8 @@
 # Multi-LLM Council
 
+[![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-blueviolet)](https://github.com/hadamyeedady12-dev/multi-llm-council)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 > 다중 LLM CLI를 활용한 집단 지성 협의 시스템
 
 Claude Code가 의장으로서 Gemini CLI, Codex CLI를 조율하여 **추가 API 비용 없이** 3단계 협의 프로세스를 진행합니다.
@@ -32,19 +35,24 @@ npm install -g @anthropic-ai/claude-code
 
 #### 방법 1: 마켓플레이스 (권장)
 
-```bash
-# Claude Code 내에서 실행
+Claude Code 내에서 아래 명령어를 순서대로 실행하세요:
+
+```
 /plugin marketplace add https://github.com/hadamyeedady12-dev/multi-llm-council
+```
+
+```
 /plugin install council
 ```
 
 #### 방법 2: 직접 클론
 
 ```bash
-# Claude Code 플러그인 디렉토리에 클론
 cd ~/.claude/plugins
 git clone https://github.com/hadamyeedady12-dev/multi-llm-council.git
 ```
+
+설치 후 Claude Code를 재시작하면 `/council` 명령어를 사용할 수 있습니다.
 
 ## 사용법
 
