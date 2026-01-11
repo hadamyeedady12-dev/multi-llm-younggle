@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "multi-llm-council-marketplace",
+  "name": "multi-llm-younggle-marketplace",
   "description": "Multi-LLM Council - 다중 AI 집단 지성 협의 시스템",
   "owner": {
     "name": "hadamyeedady12-dev",
@@ -13,9 +13,9 @@
       "category": "productivity",
       "source": {
         "source": "url",
-        "url": "https://github.com/hadamyeedady12-dev/multi-llm-council.git"
+        "url": "https://github.com/hadamyeedady12-dev/multi-llm-younggle.git"
       },
-      "homepage": "https://github.com/hadamyeedady12-dev/multi-llm-council"
+      "homepage": "https://github.com/hadamyeedady12-dev/multi-llm-younggle"
     }
   ]
 }

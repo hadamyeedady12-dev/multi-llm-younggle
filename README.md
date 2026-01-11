@@ -1,6 +1,6 @@
 # Multi-LLM Council v3.0
 
-[![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-blueviolet)](https://github.com/hadamyeedady12-dev/multi-llm-council)
+[![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-blueviolet)](https://github.com/hadamyeedady12-dev/multi-llm-younggle)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > 다중 LLM CLI를 활용한 집단 지성 협의 시스템
@@ -47,14 +47,14 @@ npm install -g @anthropic-ai/claude-code
 
 **방법 1: 마켓플레이스 (권장)**
 ```
-/plugin marketplace add https://github.com/hadamyeedady12-dev/multi-llm-council
+/plugin marketplace add https://github.com/hadamyeedady12-dev/multi-llm-younggle
 /plugin install council
 ```
 
 **방법 2: 직접 클론**
 ```bash
 cd ~/.claude/plugins
-git clone https://github.com/hadamyeedady12-dev/multi-llm-council.git
+git clone https://github.com/hadamyeedady12-dev/multi-llm-younggle.git
 ```
 
 설치 후 Claude Code를 재시작하세요.
