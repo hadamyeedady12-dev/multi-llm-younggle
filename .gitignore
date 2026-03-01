@@ -16,3 +16,12 @@ Thumbs.db
 
 # Temp
 *.tmp
+# Secrets / credentials (defensive)
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+*.secret
